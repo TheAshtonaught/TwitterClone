@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0906B2B91E879939007B9EDF /* HomeDatasourceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0906B2B81E879939007B9EDF /* HomeDatasourceController.swift */; };
+		0906B2BE1E87A45A007B9EDF /* Cells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0906B2BD1E87A45A007B9EDF /* Cells.swift */; };
+		0906B2C01E87A4A4007B9EDF /* HomeDatasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0906B2BF1E87A4A4007B9EDF /* HomeDatasource.swift */; };
 		094994DD1E7E533900024C5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094994DC1E7E533900024C5A /* AppDelegate.swift */; };
 		094994E41E7E533900024C5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 094994E31E7E533900024C5A /* Assets.xcassets */; };
 		094994E71E7E533900024C5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 094994E51E7E533900024C5A /* LaunchScreen.storyboard */; };
@@ -17,6 +19,8 @@
 
 /* Begin PBXFileReference section */
 		0906B2B81E879939007B9EDF /* HomeDatasourceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasourceController.swift; sourceTree = "<group>"; };
+		0906B2BD1E87A45A007B9EDF /* Cells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cells.swift; sourceTree = "<group>"; };
+		0906B2BF1E87A4A4007B9EDF /* HomeDatasource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeDatasource.swift; sourceTree = "<group>"; };
 		094994D91E7E533900024C5A /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		094994DC1E7E533900024C5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		094994E31E7E533900024C5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0906B2BA1E87A400007B9EDF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0906B2B81E879939007B9EDF /* HomeDatasourceController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		0906B2BB1E87A40C007B9EDF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0906B2BF1E87A4A4007B9EDF /* HomeDatasource.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0906B2BC1E87A416007B9EDF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0906B2BD1E87A45A007B9EDF /* Cells.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		094994D01E7E533900024C5A = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +89,14 @@
 		094994DB1E7E533900024C5A /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				0906B2BC1E87A416007B9EDF /* View */,
+				0906B2BB1E87A40C007B9EDF /* Model */,
+				0906B2BA1E87A400007B9EDF /* Controller */,
 				094994DC1E7E533900024C5A /* AppDelegate.swift */,
 				094994EE1E7E569200024C5A /* HomeController.swift */,
 				094994E31E7E533900024C5A /* Assets.xcassets */,
 				094994E51E7E533900024C5A /* LaunchScreen.storyboard */,
 				094994E81E7E533900024C5A /* Info.plist */,
-				0906B2B81E879939007B9EDF /* HomeDatasourceController.swift */,
 			);
 			path = TwitterClone;
 			sourceTree = "<group>";
@@ -211,7 +241,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0906B2C01E87A4A4007B9EDF /* HomeDatasource.swift in Sources */,
 				094994DD1E7E533900024C5A /* AppDelegate.swift in Sources */,
+				0906B2BE1E87A45A007B9EDF /* Cells.swift in Sources */,
 				0906B2B91E879939007B9EDF /* HomeDatasourceController.swift in Sources */,
 				094994EF1E7E569200024C5A /* HomeController.swift in Sources */,
 			);
